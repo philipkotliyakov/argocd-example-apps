@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: guestbook-ui
   annotations:                                                                                      
-    octopus.com/release: "#{Octopus.Release.Number}"
+    octopus.com/release: "0.0.4"
 spec:
   replicas: 1
   revisionHistoryLimit: 3
